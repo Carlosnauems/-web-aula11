@@ -5,7 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula 10</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        #paragrafo1{
+           background-color: blue;
+            }
+        #paragrafo2{
+           background-color: red;
+        }
+        #paragrafo3{
+           background-color: green;
+       }
+
+       .paragrafo{
+            display: inline-block;
+            height: 150px;
+            width: 150px;
+            border-radius: 5px;
+            margin: 50px;
+            margin-top: 150px;
+            padding: 10px;
+        }
+    </style>
 </head>
 <body>
     <p id="paragrafo1" class=" paragrafo">Azul</p>
