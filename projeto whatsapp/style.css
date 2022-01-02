@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y:hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 500px;
+    background-color: #128c7E;
+    color: white;
+    height: 100%;
+}
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(182, 180, 180);
+    padding: 15px 0px;
+}
+.corpo{
+    font: #FFFF;
+    font-family: Helvetica;
+    margin-top: 15px;
+    text-align: center;
+    padding: 15px 40px;
+    
+}
+.corpo h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.corpo p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+}
+.corpo .btn{
+    background-color: rgb(123, 245, 123);
+    padding: 20px 30px;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-bottom: 15px;
+    
+    
+}
